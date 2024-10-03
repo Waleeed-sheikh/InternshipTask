@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import PersonalInformationform from './personalForm';
+
 
 import "./style.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PersonalInformationform/>
+    <App/>
   </React.StrictMode>
 );
 
